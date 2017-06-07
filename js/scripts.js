@@ -1,4 +1,4 @@
-var newGameBtn = document.getElementById('js-newGameButton');
+ï»¿var newGameBtn = document.getElementById('js-newGameButton');
 
 newGameBtn.addEventListener('click', newGame);
 
@@ -51,7 +51,7 @@ var playerPointsElem = document.getElementById('js-playerPoints'),
     computerPointsElem = document.getElementById('js-computerPoints');
 
 function newGame() {
-  player.name = prompt('Graczu, wpisz swoje imiê', 'imiê gracza');
+  player.name = prompt('Graczu, wpisz swoje imie', 'imie gracza');
   if (player.name) {
     player.score = computer.score = 0;
     gameState = 'started';
@@ -119,11 +119,11 @@ var gameResultElem = document.getElementById('js-gameResult');
 
 function result () {
   if (player.score >= 10) {
-    gameResultElem.innerHTML = 'WYGRA£EŒ!';
+    gameResultElem.innerHTML = 'WYGRALEÅš!';
     gameState = 'ended';
     setGameElements();
   } else if (computer.score >= 10) {
-    gameResultElem.innerHTML = 'PRZEGRA£EŒ!';
+    gameResultElem.innerHTML = 'PRZEGRALEÅš!';
     gameState = 'ended';
     setGameElements();
   } else {

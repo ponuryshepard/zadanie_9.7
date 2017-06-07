@@ -1,5 +1,38 @@
-.container {
-	
-	margin-top: 20px;
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
+body {
+	background-image: url('https://static.pexels.com/photos/220634/pexels-photo-220634.jpeg');
+	font-family: 'Pacifico', cursive;
+	font-size: 35px;
+	color: white;
+	text-shadow: 2px 3px 6px black;
+}
+
+h3 {
+	font-size: 70px;
+	margin: 0;
+}
+
+.text-center {
+	line-height: 150px;
+}
+
+#js-newGameButton {
+	font-size: 50px;
+}
+
+#js-newGameElement > .row {
+	margin: 0;
+}
+
+#js-playerPick_rock,
+#js-playerPick_paper,
+#js-playerPick_scissors {
+	font-size: 50px;
+    	margin: 10px 60px;
+}
+
+.badge {
+	font-size: 50px;
+	background-color: transparent;
 }
